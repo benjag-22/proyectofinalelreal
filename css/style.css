@@ -1,0 +1,277 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    background-image: url(../img/);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+
+
+/* header */
+header {
+    text-decoration: none;
+    height: 40px;
+    margin-inline: 80px;
+    text-decoration: none;
+    color: black;
+}
+
+.navheader {
+    text-decoration: none;
+    text-align: right;
+    background-color: rgb(38, 10, 70);
+    height: 100px;
+    width: 70%;
+    margin-left: 170px;
+
+}
+
+ div .divheader{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+ }
+
+.menuheader {
+    text-decoration: none;
+    color: rgb(243, 135, 243);
+    margin: 20px; 
+}
+
+/* buscar */
+
+/*
+.navbuscador{
+
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.buscador{
+    
+}
+*/
+
+.sacardilineado {
+    text-decoration: none;
+    
+}
+
+/*img*/
+
+div .contenedorfoto{
+    display: flex;
+    flex-wrap: wrap;
+
+    
+}
+
+img {
+    border-radius: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    width: 100px;
+    height: 90px;
+
+}
+
+/* main  de home */
+
+main{
+    background-color: black;
+}
+
+.tituloPpal{
+    font-size: 30px;
+    color: rgb(243, 135, 243) ;
+    margin-bottom: 70px;
+}
+
+div h3 {
+    align-content: center;
+    background-color: rgb(38, 10, 70);
+    margin-right: 900px;
+    padding: 10px;
+    margin-left: 70px;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.section1{
+    margin: 80px;
+}
+
+.section2 {
+    margin: 80px;
+}
+
+.section3 {
+    margin: 80px;
+}
+
+article{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(38, 10, 70);
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+h3{
+    color:  rgb(243, 135, 243);
+    align-content: flex-start;
+    
+}
+
+h4{
+    color: rgb(184, 101, 184);
+    
+}
+
+p{
+    color: rgb(138, 74, 138);
+} 
+
+/* main de genres*/ 
+
+ .sectiongenre1 {
+    height: 70px;
+    width: 380px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+div a {
+    padding: 20px;
+    background-color: rgb(38, 10, 70);
+    color:  rgb(243, 135, 243);
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 30px;
+    
+}
+
+/*detail-genre*/
+article .nombreartist{
+    text-decoration: none;
+    align-content: center;
+    
+}
+
+
+/* footer bueno */
+
+footer {
+    text-decoration: none;
+    height: 40px;
+    margin-inline: 80px;
+    text-decoration: none;
+    color: black;
+    width: 89%;
+}
+
+.navheader {
+    text-decoration: none;
+    text-align: right;
+    background-color: rgb(38, 10, 70);
+    height: 100px;
+    width: 70%;
+    margin-left: 170px;
+
+}
+
+ div .divheader{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+ }
+
+.menuheader {
+    text-decoration: none;
+    color: rgb(243, 135, 243);
+    margin: 20px; 
+}
+
+.nombres{
+    margin: 25px;
+    margin-right: 20px;
+    color:  rgb(243, 135, 243);
+}
+
+/* footer viejo 
+footer{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: flex-end ;
+    margin: 10px;
+    background-color: rgb(38, 10, 70);
+    height: 40px;
+    margin-inline: 80px;
+
+}
+
+
+
+.iconos{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+.icon{
+    margin-inline: 100px;
+}
+
+.nombres{
+    margin: 0px;
+    margin-right: 20px;
+    color:  rgb(243, 135, 243);
+}
+
+div ul li {
+    list-style: none;
+    text-decoration: none; 
+}
+
+.footercompleto ul{
+    width: 100vw;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}
+
+.footercompleto ul li{
+    display: inline;
+   list-style: none;
+}
+
+.footercompleto ul li a{
+    color:  rgb(243, 135, 243);
+    text-decoration: none;
+    text-align: center;
+}
+*/
