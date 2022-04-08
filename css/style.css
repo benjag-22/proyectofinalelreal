@@ -1,9 +1,8 @@
+
+/* en general */
 body {
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
-    background-image: url(../img/);
-    background-repeat: no-repeat;
-    background-size: cover;
     background-color: black;
 }
 
@@ -41,21 +40,6 @@ header {
     color: rgb(243, 135, 243);
     margin: 20px; 
 }
-
-/* buscar */
-
-/*
-.navbuscador{
-
-    display: flex;
-    flex-wrap: wrap;
-    
-}
-
-.buscador{
-    
-}
-*/
 
 .sacardilineado {
     text-decoration: none;
