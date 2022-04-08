@@ -66,8 +66,8 @@ header {
 
 div .contenedorfoto{
     display: flex;
-    flex-wrap: wrap;
-
+    flex-wrap: wrap;   
+    justify-content: flex-end;
     
 }
 
@@ -78,6 +78,7 @@ img {
     justify-content: right;
     width: 100px;
     height: 90px;
+    margin-top: 10px;
 
 }
 
@@ -87,13 +88,17 @@ main{
     background-color: black;
 }
 
+.comogenre {
+    margin-right: 800px;
+}
+
 .tituloPpal{
     font-size: 30px;
     color: rgb(243, 135, 243) ;
     margin-bottom: 70px;
 }
 
-div h3 {
+div h3 .canciones {
     align-content: center;
     background-color: rgb(38, 10, 70);
     margin-right: 900px;
@@ -119,11 +124,14 @@ section{
 }
 
 article{
-    height: 200px;
+    height: 280px;
     width: 300px;
     background-color: rgb(38, 10, 70);
     margin-left: 70px;
     margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 h3{
@@ -180,6 +188,11 @@ article .nombreartist{
     
 }
 
+/*detail-artists */
+
+.detail-artist {
+    height: 300px;
+}
 
 /* footer bueno */
 
@@ -218,9 +231,10 @@ footer {
 }
 
 .nombres{
-    margin: 25px;
+    margin: 20px;
     margin-right: 20px;
     color:  rgb(243, 135, 243);
+    margin-top: 35px;
 }
 
 /* footer viejo 
