@@ -73,7 +73,7 @@ main{
 }
 
 .comogenre {
-    margin-right: 800px;
+    margin-right: 1000px;
 }
 
 .tituloPpal{
@@ -198,6 +198,9 @@ footer {
     text-decoration: none;
     color: black;
     width: 89%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
 }
 
 .navheader {
