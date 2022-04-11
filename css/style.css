@@ -73,7 +73,7 @@ main{
 }
 
 .comogenre {
-    margin-right: 800px;
+    margin-right: 1000px;
 }
 
 .tituloPpal{
@@ -178,6 +178,17 @@ article .nombreartist{
     height: 300px;
 }
 
+/*detail-track*/
+.largo {
+
+color:rgb(243, 135, 243);
+height: 390px;
+
+}
+
+
+
+
 /* footer bueno */
 
 footer {
@@ -187,6 +198,9 @@ footer {
     text-decoration: none;
     color: black;
     width: 89%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
 }
 
 .navheader {
