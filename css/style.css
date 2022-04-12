@@ -1,4 +1,7 @@
 
+
+@media (min-width: 1024px) {
+
 /* en general */
 body {
     font-family: 'Raleway', sans-serif;
@@ -287,3 +290,5 @@ div ul li {
     text-align: center;
 }
 */
+
+}
