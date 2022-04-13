@@ -1,5 +1,304 @@
 
 
+
+/* en general */
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    background-color: black;
+}
+
+
+/* header */
+header {
+    text-decoration: none;
+    height: 40px;
+    margin-inline: 70px;
+    text-decoration: none;
+    color: black;
+    margin-left: 170px;
+    margin-bottom: 400px;
+}
+
+.navheader {
+    text-decoration: none;
+    text-align: right;
+    background-color: rgb(38, 10, 70);
+    height: 100px;
+    width: 70%;
+    
+
+}
+
+ div .divheader{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+ }
+
+.menuheader {
+    text-decoration: none;
+    color: rgb(243, 135, 243);
+    margin: 20px; 
+}
+
+.sacardilineado {
+    text-decoration: none;
+    
+}
+
+/*img*/
+
+div .contenedorfoto{
+    display: flex;
+    flex-wrap: wrap;   
+    justify-content: flex-end;
+    
+}
+
+img {
+    border-radius: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    width: 100px;
+    height: 90px;
+    margin-top: 10px;
+
+}
+
+/* main  de home */
+
+main{
+    background-color: black;
+}
+
+.comogenre {
+    margin-right: 00px;
+    margin-top: 00px;
+}
+
+.tituloPpal{
+    font-size: 30px;
+    color: rgb(243, 135, 243) ;
+    margin-bottom: 70px;
+    
+}
+
+div h3 .canciones {
+    align-content: center;
+    background-color: rgb(38, 10, 70);
+    margin-right: 900px;
+    padding: 10px;
+    margin-left: 70px;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.section1{
+    margin-left: 100px;
+}
+
+.section2 {
+    margin-left: 100px;
+}
+
+.section3 {
+    margin-left: 100px;
+}
+
+article{
+    height: 370px;
+    width: 500px;
+    background-color: rgb(38, 10, 70);
+    margin-left: 70px;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h3{
+    color:  rgb(243, 135, 243);
+    align-content: flex-start;
+    
+}
+
+h4{
+    color: rgb(184, 101, 184);
+    
+}
+
+p{
+    color: rgb(138, 74, 138);
+} 
+
+/* main de genres*/ 
+
+ /* NO sirve, al pedo ponerlo  .sectiongenre1 {
+    height: 70px;
+    width: 380px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+*/
+
+.maingenre {
+    margin-top: 500px;
+    margin-left: 60px;
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+div a {
+    padding: 20px;
+    background-color: rgb(38, 10, 70);
+    color:  rgb(243, 135, 243);
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 30px;
+    margin-right: 100px;
+    
+}
+
+/*detail-genre*/
+article .nombreartist{
+    text-decoration: none;
+    align-content: center;
+    
+}
+
+/*detail-artists */
+
+.detail-artist {
+    height: 400px;
+    margin-top: 30px;
+    width: 200px;
+}
+
+/*detail-track*/
+.largo {
+
+color:rgb(243, 135, 243);
+height: 500px;
+
+}
+
+
+/* footer bueno */
+
+footer {
+    text-decoration: none;
+    height: 40px;
+    margin-inline: 80px;
+    text-decoration: none;
+    color: black;
+    width: 89%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.navheader {
+    text-decoration: none;
+    text-align: right;
+    background-color: rgb(38, 10, 70);
+    height: 00px;
+    width: 70%;
+    margin-left: 70px;
+
+}
+
+ div .divheader{
+    display: flex;
+    flex-wrap: wrap;
+    
+ }
+
+.menuheader {
+    text-decoration: none;
+    color: rgb(243, 135, 243);
+    margin: 20px; 
+}
+
+.nombres{
+    margin: 20px;
+    color:  rgb(243, 135, 243);
+    background-color:  rgb(38, 10, 70) ;
+    padding: 20px;
+}
+
+/* footer viejo 
+footer{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: flex-end ;
+    margin: 10px;
+    background-color: rgb(38, 10, 70);
+    height: 40px;
+    margin-inline: 80px;
+
+}
+
+
+
+.iconos{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+.icon{
+    margin-inline: 100px;
+}
+
+.nombres{
+    margin: 0px;
+    margin-right: 20px;
+    color:  rgb(243, 135, 243);
+}
+
+div ul li {
+    list-style: none;
+    text-decoration: none; 
+}
+
+.footercompleto ul{
+    width: 100vw;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}
+
+.footercompleto ul li{
+    display: inline;
+   list-style: none;
+}
+
+.footercompleto ul li a{
+    color:  rgb(243, 135, 243);
+    text-decoration: none;
+    text-align: center;
+}
+*/
+
+
 @media (min-width: 1024px) {
 
 /* en general */
@@ -17,6 +316,7 @@ header {
     margin-inline: 80px;
     text-decoration: none;
     color: black;
+    margin-bottom: 0%;
 }
 
 .navheader {
@@ -77,6 +377,7 @@ main{
 
 .comogenre {
     margin-right: 1000px;
+    margin-top: 0%;
 }
 
 .tituloPpal{
@@ -138,7 +439,7 @@ p{
 
 /* main de genres*/ 
 
- .sectiongenre1 {
+ /* .sectiongenre1 {
     height: 70px;
     width: 380px;
     display: flex;
@@ -147,6 +448,9 @@ p{
     justify-content: center;
     align-items: center;
     
+} */
+.maingenre{
+    margin-top:0%;
 }
 
 div {
@@ -179,6 +483,7 @@ article .nombreartist{
 
 .detail-artist {
     height: 300px;
+    width: 300px;
 }
 
 /*detail-track*/
@@ -235,7 +540,7 @@ footer {
     margin: 20px;
     margin-right: 20px;
     color:  rgb(243, 135, 243);
-    margin-top: 35px;
+    margin-top: 15px;
 }
 
 /* footer viejo 
