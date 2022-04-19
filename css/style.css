@@ -1,5 +1,6 @@
 
 
+/* Iphone 12 pro responsive */
 
 /* en general */
 body {
@@ -78,7 +79,7 @@ main{
 
 .comogenre {
     margin-right: 00px;
-    margin-top: 00px;
+    margin-top: 90px;
 }
 
 .tituloPpal{
@@ -103,6 +104,7 @@ section{
 }
 .section1{
     margin-left: 100px;
+    margin-top: 600px;
 }
 
 .section2 {
@@ -139,19 +141,6 @@ p{
     color: rgb(138, 74, 138);
 } 
 
-/* main de genres*/ 
-
- /* NO sirve, al pedo ponerlo  .sectiongenre1 {
-    height: 70px;
-    width: 380px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-}
-*/
 
 .maingenre {
     margin-top: 500px;
@@ -201,8 +190,7 @@ height: 500px;
 
 }
 
-
-/* footer bueno */
+/* footer */
 
 footer {
     text-decoration: none;
@@ -245,58 +233,28 @@ footer {
     padding: 20px;
 }
 
-/* footer viejo 
-footer{
-    display: flex;
-    flex-wrap: wrap; 
-    justify-content: flex-end ;
-    margin: 10px;
-    background-color: rgb(38, 10, 70);
-    height: 40px;
-    margin-inline: 80px;
-
+ .bajarfootgen {
+    margin-top: 450px;
 }
 
-
-
-.iconos{
-    display: flex;
-    justify-content: space-between;
-    margin: 0px;
+ .bajarfootdetgen{
+    margin-top: 200px;
 }
 
-.icon{
-    margin-inline: 100px;
+.bajarfootdetal{
+    margin-top: 170px;
 }
 
-.nombres{
-    margin: 0px;
-    margin-right: 20px;
-    color:  rgb(243, 135, 243);
+.bajarfootdettr{
+    margin-top: 180px;
 }
 
-div ul li {
-    list-style: none;
-    text-decoration: none; 
+.bajarfootdetp{
+    margin-top: 270px;
 }
-
-.footercompleto ul{
-    width: 100vw;
-    padding: 10px 0px 10px 0px;
-    text-align: center;
+.bajarfootsearch{
+    margin-top: 270px;
 }
-
-.footercompleto ul li{
-    display: inline;
-   list-style: none;
-}
-
-.footercompleto ul li a{
-    color:  rgb(243, 135, 243);
-    text-decoration: none;
-    text-align: center;
-}
-*/
 
 
 @media (min-width: 1024px) {
@@ -317,6 +275,7 @@ header {
     text-decoration: none;
     color: black;
     margin-bottom: 0%;
+    width: 1400px;
 }
 
 .navheader {
@@ -324,8 +283,8 @@ header {
     text-align: right;
     background-color: rgb(38, 10, 70);
     height: 100px;
-    width: 70%;
-    margin-left: 170px;
+    width: 90%;
+    margin-left: 80px;
 
 }
 
@@ -437,18 +396,6 @@ p{
     color: rgb(138, 74, 138);
 } 
 
-/* main de genres*/ 
-
- /* .sectiongenre1 {
-    height: 70px;
-    width: 380px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-} */
 .maingenre{
     margin-top:0%;
 }
@@ -495,9 +442,7 @@ height: 390px;
 }
 
 
-
-
-/* footer bueno */
+/* footer */
 
 footer {
     text-decoration: none;
@@ -542,58 +487,5 @@ footer {
     color:  rgb(243, 135, 243);
     margin-top: 15px;
 }
-
-/* footer viejo 
-footer{
-    display: flex;
-    flex-wrap: wrap; 
-    justify-content: flex-end ;
-    margin: 10px;
-    background-color: rgb(38, 10, 70);
-    height: 40px;
-    margin-inline: 80px;
-
-}
-
-
-
-.iconos{
-    display: flex;
-    justify-content: space-between;
-    margin: 0px;
-}
-
-.icon{
-    margin-inline: 100px;
-}
-
-.nombres{
-    margin: 0px;
-    margin-right: 20px;
-    color:  rgb(243, 135, 243);
-}
-
-div ul li {
-    list-style: none;
-    text-decoration: none; 
-}
-
-.footercompleto ul{
-    width: 100vw;
-    padding: 10px 0px 10px 0px;
-    text-align: center;
-}
-
-.footercompleto ul li{
-    display: inline;
-   list-style: none;
-}
-
-.footercompleto ul li a{
-    color:  rgb(243, 135, 243);
-    text-decoration: none;
-    text-align: center;
-}
-*/
 
 }
