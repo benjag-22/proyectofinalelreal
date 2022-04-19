@@ -21,25 +21,6 @@ header {
     margin-bottom: 400px;
 }
 
-.navheader {
-    text-decoration: none;
-    text-align: right;
-    background-color: rgb(38, 10, 70);
-    height: 100px;
-    width: 70%;
-    
-
-}
-
- div .divheader{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    
- }
-
 .menuheader {
     text-decoration: none;
     color: rgb(243, 135, 243);
@@ -204,7 +185,7 @@ footer {
     align-items: flex-end;
 }
 
-.navheader {
+ .navheader {
     text-decoration: none;
     text-align: right;
     background-color: rgb(38, 10, 70);
@@ -213,19 +194,6 @@ footer {
     margin-left: 70px;
 
 }
-
- div .divheader{
-    display: flex;
-    flex-wrap: wrap;
-    
- }
-
-.menuheader {
-    text-decoration: none;
-    color: rgb(243, 135, 243);
-    margin: 20px; 
-}
-
 .nombres{
     margin: 20px;
     color:  rgb(243, 135, 243);
@@ -277,26 +245,6 @@ header {
     width: 1400px;
     
 }
-
-.navheader {
-    text-decoration: none;
-    text-align: right;
-    background-color: rgb(38, 10, 70);
-    height: 100px;
-    width: 90%;
-    margin-left: 80px;
-    border: 3px solid  rgb(243, 135, 243) ;
-
-}
-
- div .divheader{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    
- }
 
 .menuheader {
     text-decoration: none;
@@ -467,22 +415,8 @@ footer {
     height: 100px;
     width: 70%;
     margin-left: 170px;
+    border: 3px solid  rgb(243, 135, 243) ;
 
-}
-
- div .divheader{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    
- }
-
-.menuheader {
-    text-decoration: none;
-    color: rgb(243, 135, 243);
-    margin: 20px; 
 }
 
 .nombres{
