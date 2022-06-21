@@ -196,32 +196,6 @@
             </article>
         </section>
 
-        <div id="dz-root"></div>
-        <script src="https://e-cdns-files.dzcdn.net/js/min/dz.js"></script>
-        <script>
-            DZ.init({
-                appId: '547182',
-                channelUrl: 'http://auth.expo.io/@benjag-22/yourslug'
-            });
-            // First, initialize the JavaScript SDK
-
-            // Then, request the user to log in
-            DZ.login(function (response) {
-                if (response.authResponse) {
-                    console.log('Welcome!  Fetching your information.... ');
-                    DZ.api('/user/me', function (response) {
-                        console.log('Good to see you, ' + response.name + '.');
-                    });
-                } else {
-                    console.log('User cancelled login or did not fully authorize.');
-                }
-            }, { perms: 'basic_access,email' });
-        </script>
-
-
-access_token=frsQMIINRkL4VFKVFqaqbLOMjqyPRXcX3xcYCaIDTsLsPvzestA&expires=3600|5017900202
-
-
     </main>
 
     <footer>
@@ -242,7 +216,7 @@ access_token=frsQMIINRkL4VFKVFqaqbLOMjqyPRXcX3xcYCaIDTsLsPvzestA&expires=3600|50
 
 
 
-    <script src="https://e-cdns-files.dzcdn.net/js/min/dz.js"></script>
+    <script type="text/javascript" src="https://e-cdns-files.dzcdn.net/js/min/dz.js"></script>
 
 </body>
 
